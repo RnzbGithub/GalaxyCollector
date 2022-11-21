@@ -1,0 +1,53 @@
+* {
+    font-family:'Comfortaa';
+}
+
+#planets {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    transition:0.5s all ease;
+    border-radius: 1000px;
+    padding: 10px;
+}
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4D76ywGMzdnstGt3Xh0nAQd5uy_BuoQnduw&usqp=CAU');
+    background-size: cover;
+    overflow:hidden;
+    color:white;
+}
+#planets:hover {
+    width:80px;
+    height:80px;
+  }
+  
+  
+  #planets:active {
+    border: 2px solid white;
+  }
+  
+  #heading {
+    font-size: 32px;
+    color:rgb(0, 225, 255);
+    font-weight: normal;
+  }
+  #gameover{
+    display:none;
+    position:absolute;
+    top:200px;
+    width:100%;
+    text-align: center;
+    font-size:72px;
+    color:rgb(218, 55, 49);
+    text-shadow:1px 1px 1px red;
+  }
+  
+  #score {
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    font-size:100px;
+    color:white;
+  }
